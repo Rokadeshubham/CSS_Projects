@@ -1,0 +1,192 @@
+body{
+    margin:0px;
+}
+/*MAIN NAV*/
+.main-nav{
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+.main-nav ul{
+    list-style-type: none;
+    margin: 0px;
+    margin-left: 50px;
+    overflow: hidden;
+
+}
+.main-nav ul li{
+    float: left;
+    font-size: 22px;
+    padding: 0;
+    text-align: center;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 12px 25px;
+}
+.main-nav ul li a:hover{
+    background-color:#444;
+    color: white;
+    padding: 12px 25px;
+}
+.main-nav ul li a.active{
+    background-color: #444;
+    color: white;
+}
+
+/*MAIN HEADING*/
+.main-header{
+    background-image: url("./images/image1.jpg");
+    text-align: center;
+    height: 300px;
+    padding: 70px 200px;
+}
+.main-header h1{
+    font-size: 48px;
+    color: #444;
+}
+.main-header p{
+    color: white;
+    font-size: 25px;
+}
+
+/*=------------------------SECTION---------------------------*/
+.main-section{
+    margin-left: 50px;
+}
+.main-article{
+    float: left;
+    margin: 5px;
+    text-align: center;
+    width: 360px;
+    border-radius: 25px;
+}
+.main-article img{
+    width: 360px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.section-h1{
+    background-color: darksalmon;
+    width: 500px;
+    padding: 12px 25px ;
+    border-radius: 25px;
+}
+.break{
+    clear: both;
+}
+
+.main-article a{
+    text-decoration: none;
+    color: #090C01;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+/*MAIN FOOTER*/
+
+.main-footer{
+    background-color: salmon;
+    padding: 25px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.main-footer a{
+    text-decoration: none;
+    color: #090C01;
+}
+
+
+/*--------ContactInfo-------------*/
+.contact-section{
+    padding: 5px;
+}
+.contact-article{
+    width: 450px;
+    height: 730px;
+    border: 2px solid black;
+    float: left;
+    padding: 25px;
+    margin-left: 120px;
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+    font-size: 22px;
+}
+.ul1{
+    padding: 58px;
+    text-align: center;
+}
+.li1{
+    list-style-type: none;
+    padding: 5px;
+}
+.li1 label{
+    list-style-type: none;
+    display: block;
+    font-size: 22px;
+
+
+}
+
+
+input[type='text'],input[type='email'],input[type='password'],input[type='date']{
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 6px;
+
+
+}
+textarea{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+}
+
+input[type='text']:focus,input[type='email']:focus,textarea:focus{
+    background-color: lightpink;
+
+}
+
+
+
+input[type='submit']{
+    outline: none;
+    border-radius: 12px;
+    padding: 6px;
+    border: 2px solid black;
+}
+input[type='submit']:hover{
+    background-color: darksalmon;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 15px grey;
+}
+
+
+.contact-article h1{
+    background-color: darksalmon;
+    padding: 12px 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+/*------------------GETINVOLVED--------------------*/
+#table1 tr td{
+    font-size: 30px;
+    padding: 10px;
+
+}
+#btnsubmit{
+    padding: 10px;
+    margin-left: 120px;
+    border-radius: 12px;
+    font-size: 20px;
+}
